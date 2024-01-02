@@ -1,0 +1,57 @@
+
+@font-face {
+    font-family: 'AeonikTRIAL-Regular';
+    src: url('../Assets/fonts/AeonikTRIAL-Regular.otf') format('otf'),
+         ;
+    /* Add more source formats if necessary */
+    /* font-weight: normal;
+    font-style: normal; */
+  }
+
+  @font-face {
+    font-family: 'AeonikTRIAL-Bold';
+    src: url('../Assets/fonts/AeonikTRIAL-Bold.otf') format('otf'),
+         ;
+    /* Add more source formats if necessary */
+    /* font-weight: normal;
+    font-style: normal; */
+  }
+
+  @font-face {
+    font-family: 'AeonikTRIAL-BoldItalic';
+    src: url('../Assets/fonts/AeonikTRIAL-BoldItalic.otf') format('otf'),
+         ;
+    /* Add more source formats if necessary */
+    /* font-weight: normal;
+    font-style: normal; */
+  }
+
+
+  @font-face {
+    font-family: 'AeonikTRIAL-RegularItalic';
+    src: url('../Assets/fonts/AeonikTRIAL-RegularItalic.otf') format('otf'),
+         ;
+    /* Add more source formats if necessary */
+    /* font-weight: normal;
+    font-style: normal; */
+  }
+
+
+  @font-face {
+    font-family: 'AeonikTRIAL-Light';
+    src: url('../Assets/fonts/AeonikTRIAL-Light.otf') format('otf'),
+         ;
+    /* Add more source formats if necessary */
+    /* font-weight: normal;
+    font-style: normal; */
+  }
+
+  @font-face {
+    font-family: 'AeonikTRIAL-LightItalic';
+    src: url('../Assets/fonts/AeonikTRIAL-LightItalic.otf') format('otf'),
+         ;
+    /* Add more source formats if necessary */
+    /* font-weight: normal;
+    font-style: normal; */
+  }
+

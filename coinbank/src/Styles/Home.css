@@ -1,5 +1,9 @@
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 h1 {
-    color:blueviolet
+    /* color:blueviolet */
 }
 .navbarStyle{
     display: flex;
@@ -27,6 +31,7 @@ h1 {
 
   }
 
+<<<<<<< Updated upstream
   .buttons {
     display: flex;
     margin-left: 1150px;
@@ -53,3 +58,26 @@ h1 {
     /* font-weight: normal;
     font-style: normal; */
   }
+=======
+  .headline {
+    margin-left: 130px;
+    margin-top:150px;
+  }
+
+  .gradient-background {
+    background: linear-gradient(to top, #E7E3FC, #ffffff);
+    height: 100vh;
+    display: flex;
+   
+  }
+
+  .getStarted {
+   padding:'9px';
+   background-color:'#5235E8' ;
+   color:#ffffff;
+   border-radius:'5px';
+   justify-content: center;
+  }
+
+  
+>>>>>>> Stashed changes
