@@ -1,11 +1,10 @@
-<<<<<<< Updated upstream
 h1 {
     color:blueviolet
 }
 .navbarStyle{
     display: flex;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
     
 }
 .header {
@@ -14,11 +13,12 @@ h1 {
     align-items: center;
     background-color: #ffffff;
     padding: 15px;
+   
   }
   
   .header-item {
     margin: 0 10px; 
-    margin-top: -60px;;
+    margin-top: -70px;;
   }
   
   .header-item p {
@@ -27,8 +27,24 @@ h1 {
 
   }
 
+  .buttons {
+    display: flex;
+    margin-left: 1150px;
+    margin-top: -60px;
+}
+
+.header-button {
+    padding: 8px 12px;
+    background-color: #fff;
+    color: #3498db;
+    border: 2px solid #3498db; 
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    left: 70px;
+}
+
   
-=======
 @font-face {
     font-family: 'AeonikTRIAL-Bold';
     src: url('../Assets/fonts/AeonikTRIAL-Bold.otf') format('otf'),
@@ -37,4 +53,3 @@ h1 {
     /* font-weight: normal;
     font-style: normal; */
   }
->>>>>>> Stashed changes

@@ -8,7 +8,6 @@ const Home = () => {
             <div className='navbarStyle'>
                 <img src = {logo} alt = 'Logo' />
             </div>
-<<<<<<< Updated upstream
             <div className="header">
             <div className="header-item">
                 <p>Features</p>
@@ -22,15 +21,18 @@ const Home = () => {
             <div className="header-item">
                 <p>Developing</p>
             </div>
+           
             </div>
-=======
+            <div className="buttons">
+            <button className="header-button">Sign In</button>
+            <button className="header-button">Get Started</button>
+        </div>
 
 
             <div className='headline'>
                 <p style={{color:'#523FE8'}}>SIGN IN TO YOUR SECURE WALLET</p>
             </div>
             
->>>>>>> Stashed changes
         </div>
         
     )
