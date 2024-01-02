@@ -1,7 +1,4 @@
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 h1 {
     /* color:blueviolet */
 }
@@ -31,7 +28,6 @@ h1 {
 
   }
 
-<<<<<<< Updated upstream
   .buttons {
     display: flex;
     margin-left: 1150px;
@@ -58,10 +54,9 @@ h1 {
     /* font-weight: normal;
     font-style: normal; */
   }
-=======
   .headline {
     margin-left: 130px;
-    margin-top:150px;
+    margin-top:50px;
   }
 
   .gradient-background {
@@ -80,4 +75,3 @@ h1 {
   }
 
   
->>>>>>> Stashed changes
