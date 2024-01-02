@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 h1 {
     color:blueviolet
 }
@@ -27,3 +28,13 @@ h1 {
   }
 
   
+=======
+@font-face {
+    font-family: 'AeonikTRIAL-Bold';
+    src: url('../Assets/fonts/AeonikTRIAL-Bold.otf') format('otf'),
+         ;
+    /* Add more source formats if necessary */
+    /* font-weight: normal;
+    font-style: normal; */
+  }
+>>>>>>> Stashed changes
