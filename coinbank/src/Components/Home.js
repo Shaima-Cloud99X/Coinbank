@@ -1,10 +1,14 @@
 import React from 'react';
+import '../Styles/Home.css';
+import logo from '../Assets/Logo.png'
 
 const Home = () => {
     return(
         <div>
-            <h1>Homepage</h1>
-            <p>This is the homepage</p>
+            <div className='navbarStyle'>
+                <img src = {logo} alt = 'Logo' />
+            </div>
+            
         </div>
     )
 
