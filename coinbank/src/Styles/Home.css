@@ -87,7 +87,20 @@ h1 {
 
   .content{
     margin-left: 120px;
+    margin-top: 60px;
+  }
+
+  .partners-text {
+    color: #523fe8;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 650px;
     margin-top: 40px;
+  }
+
+  .companies{
+    margin-left: 110px;
+    margin-top: 20px;
   }
 
   

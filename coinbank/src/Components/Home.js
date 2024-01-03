@@ -3,6 +3,7 @@ import '../Styles/Home.css';
 import logo from '../Assets/Logo.png';
 import vector from '../Assets/Vector.png';
 import content from '../Assets/Content.png';
+import companies from '../Assets/Companies.png';
 import '../Styles/font.css';
 
 const Home = () => {
@@ -53,10 +54,19 @@ const Home = () => {
             
             </div>
 
+            
+            <div>
+                <p className="partners-text">PARTNERS</p>
+                <h1 style={{fontSize:20, color:'#0E0637', fontWeight:'bold', marginTop:20 , marginLeft: 570}}>We're backed by the best</h1><br/>
+                <p style = {{color: '#717184',  display:'block', fontSize:13, marginTop:-20, marginLeft: 560}}>Trusted by these blockchain leading industries</p>
+                <img className='companies' src = {companies} alt = 'companies' />
+            </div>
+
             <div className='content'>
                 <img src = {content} alt = 'content' />
             </div>
-            
+
+
         </div>
         
     )
