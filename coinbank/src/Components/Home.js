@@ -2,6 +2,7 @@ import React from 'react';
 import '../Styles/Home.css';
 import logo from '../Assets/Logo.png';
 import vector from '../Assets/Vector.png';
+import content from '../Assets/Content.png';
 import '../Styles/font.css';
 
 const Home = () => {
@@ -50,6 +51,10 @@ const Home = () => {
             </div>
        
             
+            </div>
+
+            <div className='content'>
+                <img src = {content} alt = 'content' />
             </div>
             
         </div>
