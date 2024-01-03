@@ -4,6 +4,9 @@ import logo from '../Assets/Logo.png';
 import vector from '../Assets/Vector.png';
 import content from '../Assets/Content.png';
 import '../Styles/font.css';
+import heroImg1 from '../Assets/heroImg1.png';
+import heroImg2 from '../Assets/heroimg2.png';
+import HeroImage from '../Assets/Illustration.png';
 
 const Home = () => {
     return(
@@ -33,6 +36,9 @@ const Home = () => {
 
 
             <div className='gradient-background'>
+
+             <div className='heroContent'>
+
             <div className='headline'>
                 <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13 }}>SIGN IN TO YOUR SECURE WALLET !</p>
                
@@ -49,13 +55,24 @@ const Home = () => {
                 </div>
 
             </div>
+
+            </div>   
+            <div className='imageContainer'>
+            <img src = {HeroImage} alt = 'Hero image' width={494} height={430} style={{}}/>
+
+            </div>
        
             
             </div>
 
+<<<<<<< Updated upstream
             <div className='content'>
                 <img src = {content} alt = 'content' />
             </div>
+=======
+
+
+>>>>>>> Stashed changes
             
         </div>
         

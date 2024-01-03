@@ -67,7 +67,7 @@ h1 {
   }
   .headline {
     margin-left: 130px;
-    margin-top:50px;
+    margin-top:70px;
   }
 
   .gradient-background {
@@ -85,9 +85,19 @@ h1 {
    justify-content: center;
   }
 
+<<<<<<< Updated upstream
   .content{
     margin-left: 120px;
     margin-top: 40px;
   }
 
+=======
+  .heroContent {
+    display: flex;
+  }
+>>>>>>> Stashed changes
   
+.imageContainer {
+  margin-left:170px;
+  margin-top: 80px;
+}
