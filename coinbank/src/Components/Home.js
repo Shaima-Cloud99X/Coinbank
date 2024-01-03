@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Styles/Home.css';
 import logo from '../Assets/Logo.png';
+import vector from '../Assets/Vector.png';
 import '../Styles/font.css';
 
 const Home = () => {
@@ -11,13 +12,13 @@ const Home = () => {
             </div>
             <div className="header">
             <div className="header-item">
-                <p>Features</p>
+                <p>Features    <img src = {vector} alt = 'vector' /></p>
             </div>
             <div className="header-item">
                 <p>Prices</p>
             </div>
             <div className="header-item">
-                <p>Company</p>
+                <p>Company  <img src = {vector} alt = 'vector' /></p>
             </div>
             <div className="header-item">
                 <p>Developing</p>
@@ -26,7 +27,7 @@ const Home = () => {
             </div>
             <div className="buttons">
             <button className="header-button">Sign In</button>
-            <button className="header-button">Get Started</button>
+            <button className="header-button1">Get Started</button>
         </div>
 
 
