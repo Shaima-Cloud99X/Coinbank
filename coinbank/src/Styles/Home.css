@@ -74,8 +74,47 @@ h1 {
     background: linear-gradient(to top, #E7E3FC, #ffffff);
     height: 100vh;
     display: flex;
+    
+
+    
+    
    
   }
+
+  .gradient-background1 {
+    background: linear-gradient(to bottom,#ffffff, #E7E3FC, #ffffff);
+    height: 160vh;
+    display: flex;
+    justify-content: center;
+  align-items: center; 
+  position: relative;
+ 
+    /* background-image: url('../Assets/Pattern.png');
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center; */
+   
+  }
+
+  .featureBackground {
+    background-image: url('../Assets/Pattern.png');
+    background-size:100%;
+    width:1500px;
+    height:360px;
+    margin-top:-10px;
+    position: absolute;
+    justify-content: center;
+    align-items:center ;
+    margin-left: -700px;
+  }
+
 
   .getStarted {
    padding:'9px';
@@ -85,17 +124,14 @@ h1 {
    justify-content: center;
   }
 
-<<<<<<< Updated upstream
   .content{
     margin-left: 120px;
     margin-top: 40px;
   }
 
-=======
   .heroContent {
     display: flex;
   }
->>>>>>> Stashed changes
   
 .imageContainer {
   margin-left:170px;
