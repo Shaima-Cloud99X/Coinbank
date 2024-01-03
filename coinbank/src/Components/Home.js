@@ -10,6 +10,7 @@ import heroImg2 from '../Assets/heroimg2.png';
 import HeroImage from '../Assets/Illustration.png';
 import Pattern from '../Assets/Pattern.png';
 import featureImg from '../Assets/featureImg.png'
+import bitcoins from '../Assets/Illustration2.png'
 
 const Home = () => {
     return(
@@ -81,7 +82,7 @@ const Home = () => {
             </div>
 
 
-            <div style = {{marginTop:140}}>
+            <div style = {{marginTop:100}}>
 
             <div className='gradient-background1'>
 
@@ -92,20 +93,41 @@ const Home = () => {
 
                 
                 <div  >
-                <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13, textAlign:'center',marginTop:-550 }}>FEATURES</p>
+                <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13, textAlign:'center',marginTop:-450 }}>FEATURES</p>
                 {/* <img src = {Pattern} alt = 'content' style={{position:'absolute'}}/> */}
                 <div className='featureBackground'>
-                <h1 style={{fontSize:50, color:'#0E0637',marginTop:-2, textAlign:'center'}}>Get a bird's eye view of your<br/>crypto investments</h1>
+                <h1 style={{fontSize:40, color:'#0E0637',marginTop:-2, textAlign:'center'}}>Get a bird's eye view of your<br/>crypto investments</h1>
                 <p style = {{color: '#717184', maxWidth:'1090px', lineHeight:'28px', display:'block', fontSize:18, marginTop:-20, textAlign:'center', marginLeft:220}}>Keep up on all the latest trends in the crypto and stay
                  <br/>ahead of the market.</p>
 
-                 <img src = {featureImg} alt = 'dashboard' width={1120} height={580} style={{position:'absolute', alignSelf:'center', marginLeft:185}}/>
+                 <img src = {featureImg} alt = 'dashboard' width={1110} height={580} style={{position:'absolute', alignSelf:'center', marginLeft:185}}/>
                 </div>
                 </div>
 
                
 
             </div>
+
+            </div>
+
+
+            <div className='gradient-background2'>
+            <div className='featureBackground2'>
+
+            <div style = {{marginTop:70, alignItems:'center', marginRight:380}}  >
+            
+                <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13, textAlign:'center', }}>FEATURES</p>
+               
+                <h1 style={{fontSize:40, color:'#0E0637',marginTop:30, textAlign:'center'}}>Many type of Blockchains</h1>
+                <p style = {{color: '#717184', maxWidth:'1090px', lineHeight:'28px', display:'block', fontSize:18, marginTop:20, textAlign:'center',}}>Amet minim mollit
+                 non deserunt ullamco est sit aliqua dolor do amet sint.<br/> Velit officia consequat duis enim velit mollit. Exercitation veniam consequat<br/>sunt nostrud amet.</p>
+
+               
+                </div>
+
+                <img src = {bitcoins} alt = 'dashboard' width={1120} height={164} style={{position:'absolute',marginLeft:-190, marginTop:80}}/>
+                </div>
+
 
             </div>
 

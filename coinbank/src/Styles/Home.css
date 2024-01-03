@@ -89,30 +89,43 @@ h1 {
   align-items: center; 
   position: relative;
  
-    /* background-image: url('../Assets/Pattern.png');
-    background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  text-align: center; */
    
   }
+
+  .gradient-background2 {
+    background: linear-gradient(to bottom right, #E7E3FC, #ffffff);
+    height: 160vh;
+    display: flex;
+    justify-content: center;
+  align-items: center; 
+  position: relative;
+ 
+   
+  }
+
 
   .featureBackground {
     background-image: url('../Assets/Pattern.png');
     background-size:100%;
     width:1500px;
     height:360px;
-    margin-top:-10px;
+    margin-top:10px;
     position: absolute;
     justify-content: center;
     align-items:center ;
     margin-left: -700px;
+  }
+
+  .featureBackground2 {
+    background-image: url('../Assets/Pattern2.png');
+    background-size:100%;
+    width:1000px;
+    height:360px;
+    position: absolute;
+    justify-content: center;
+    align-items:center ;
+    margin-left: 420px;
+    margin-top: -620px;
   }
 
 
@@ -147,6 +160,6 @@ h1 {
   }
   
 .imageContainer {
-  margin-left:170px;
+  margin-left:190px;
   margin-top: 80px;
 }
