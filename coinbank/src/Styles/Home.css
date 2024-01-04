@@ -2,6 +2,11 @@
 h1 {
     /* color:blueviolet */
 }
+
+.main-container{
+    
+    overflow: hidden;
+}
 .navbarStyle{
     display: flex;
     margin-top: 20px;
@@ -89,26 +94,38 @@ h1 {
   align-items: center; 
   position: relative;
  
-    /* background-image: url('../Assets/Pattern.png');
-    background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  text-align: center; */
    
   }
+
+  .gradient-background2 {
+    background: linear-gradient(to bottom right, #E7E3FC, #ffffff);
+    height: 160vh;
+    display: flex;
+    justify-content: center;
+  align-items: center; 
+  position: relative;
+ 
+   
+  }
+
+  .gradient-background3 {
+    background: linear-gradient(to center, #E7E3FC, #ffffff);
+    height: 160vh;
+    display: flex;
+    justify-content: center;
+  align-items: center; 
+  position: relative;
+ 
+   
+  }
+
 
   .featureBackground {
     background-image: url('../Assets/Pattern.png');
     background-size:100%;
     width:1500px;
     height:360px;
-    margin-top:-10px;
+    margin-top:10px;
     position: absolute;
     justify-content: center;
     align-items:center ;
@@ -116,6 +133,17 @@ h1 {
   }
 
   
+  .featureBackground2 {
+    background-image: url('../Assets/Pattern2.png');
+    background-size:100%;
+    width:1000px;
+    height:360px;
+    position: absolute;
+    justify-content: center;
+    align-items:center ;
+    margin-left: 420px;
+    margin-top: -620px;
+  }
 
 
   .getStarted {
@@ -139,6 +167,14 @@ h1 {
     margin-top: 40px;
   }
 
+  .features-text {
+    color: #523fe8;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: -1250px;
+    margin-top: -850px;
+  }
+
   .companies{
     margin-left: 110px;
     margin-top: 20px;
@@ -149,6 +185,20 @@ h1 {
   }
   
 .imageContainer {
-  margin-left:170px;
+  margin-left:190px;
   margin-top: 80px;
+}
+
+.line{
+    margin-left: -2500px;
+    justify-content: center;
+    align-items:center ;
+    margin-top: -100px;
+}
+
+.card{
+    position: absolute;
+    justify-content: center;
+    align-items:center ;
+    margin-top: -100px;
 }
