@@ -90,14 +90,15 @@ const Home = () => {
             <div className='gradient-background1'>
      
                 <div  >
-                <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13, textAlign:'center',marginTop:-450 }}>FEATURES</p>
+                {/* <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13, textAlign:'center',marginTop:-450 }}>FEATURES</p> */}
                 {/* <img src = {Pattern} alt = 'content' style={{position:'absolute'}}/> */}
                 <div className='featureBackground'>
-                <h1 style={{fontSize:40, color:'#0E0637',marginTop:-2, textAlign:'center'}}>Get a bird's eye view of your<br/>crypto investments</h1>
-                <p style = {{color: '#717184', maxWidth:'1090px', lineHeight:'28px', display:'block', fontSize:18, marginTop:-20, textAlign:'center', marginLeft:220}}>Keep up on all the latest trends in the crypto and stay
+                <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13, textAlign:'center',  marginLeft:-40}}>FEATURES</p>
+                <h2 style={{fontSize:40, color:'#0E0637',marginTop:30, textAlign:'center', fontFamily:"Aeonik-Medium", marginLeft:-20}}>Get a bird's eye view of your<br/>crypto investments</h2>
+                <p style = {{color: '#717184', maxWidth:'1090px', lineHeight:'28px', display:'block', fontSize:18, marginTop:-10, textAlign:'center', marginLeft:200}}>Keep up on all the latest trends in the crypto and stay
                  <br/>ahead of the market.</p>
 
-                 <img src = {featureImg} alt = 'dashboard' width={1110} height={580} style={{position:'absolute', alignSelf:'center', marginLeft:185, }}/>
+                 <img src = {featureImg} alt = 'dashboard' width={1110} height={580} style={{position:'absolute', alignSelf:'center', marginLeft:165,marginTop:30 }}/>
                 </div>
                 </div>   
 
@@ -113,14 +114,14 @@ const Home = () => {
             
                 <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13, textAlign:'center', }}>FEATURES</p>
                
-                <h1 style={{fontSize:40, color:'#0E0637',marginTop:30, textAlign:'center'}}>Many type of Blockchains</h1>
+                <h2 style={{fontSize:40, color:'#0E0637',marginTop:30, textAlign:'center', fontFamily:"Aeonik-Medium"}}>Many type of Blockchains</h2>
                 <p style = {{color: '#717184', maxWidth:'1090px', lineHeight:'28px', display:'block', fontSize:18, marginTop:20, textAlign:'center',}}>Amet minim mollit
                  non deserunt ullamco est sit aliqua dolor do amet sint.<br/> Velit officia consequat duis enim velit mollit. Exercitation veniam consequat<br/>sunt nostrud amet.</p>
 
                
                 </div>
 
-                <img src = {bitcoins} alt = 'dashboard' width={1120} height={164} style={{position:'absolute',marginLeft:-210, marginTop:80}}/>
+                <img src = {bitcoins} alt = 'bitcoins' width={1120} height={164} style={{position:'absolute',marginLeft:-210, marginTop:100,}}/>
                 </div>
 
 
@@ -128,10 +129,14 @@ const Home = () => {
 
             
             <div className='gradient-background3'>
-              <p className="features-text">FEATURES</p>
 
-            <h1 style={{fontSize:20, color:'#0E0637',marginTop:-750, textAlign:'center' ,marginLeft:-140,}}>Supertrade your changes<br/>
-             with advanced features</h1>
+                <div style = {{marginRight:700, marginTop:800}}>
+                <p className="features-text">FEATURES</p>
+                <h2 style={{fontSize:40, color:'#0E0637',marginTop:40, textAlign:'center', fontFamily:'Aeonik-Medium'}}>Supertrade your changes<br/>
+ with advanced features</h2>
+
+                </div>
+              
             
              <img className="card" src = {card} alt = 'content' />
              <img className="line"src = {lines} alt = 'content' />
@@ -143,7 +148,7 @@ const Home = () => {
             <div className='gradient-background4'>
             <div className='container4'>
             <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13, textAlign:'left', }}>FEATURES</p>
-            <h1 style={{fontSize:40, color:'#0E0637' ,textAlign:'left'}}>Seamless Trading</h1>
+            <h2 style={{fontSize:40, color:'#0E0637' ,textAlign:'left', fontFamily:'Aeonik-Medium'}}>Seamless Trading</h2>
             <div className='text-container'>
             <div>
             <p style = {{color: '#717184', maxWidth:'1090px', lineHeight:'28px', display:'block', textAlign:'left'}}>Amet minim mollit non deserunt 
