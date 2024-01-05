@@ -119,7 +119,7 @@ const Home = () => {
                
                 </div>
 
-                <img src = {bitcoins} alt = 'dashboard' width={1120} height={164} style={{position:'absolute',marginLeft:-190, marginTop:80}}/>
+                <img src = {bitcoins} alt = 'dashboard' width={1120} height={164} style={{position:'absolute',marginLeft:-210, marginTop:80}}/>
                 </div>
 
 
