@@ -13,6 +13,7 @@ import featureImg from '../Assets/featureImg.png'
 import bitcoins from '../Assets/Illustration2.png'
 import lines from '../Assets/Lines.png'
 import card from '../Assets/Card.png'
+import features4 from '../Assets/features4.png'
 
 const Home = () => {
     return(
@@ -48,7 +49,7 @@ const Home = () => {
             <div className='headline'>
                 <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13 }}>SIGN IN TO YOUR SECURE WALLET !</p>
                
-                <h1 style={{fontSize:50, color:'#0E0637', fontWeight:'bold', marginTop:20}}>The next-gen <br/>crypto wallet & <br/>trading platform</h1>
+                <h1 style={{fontSize:64, color:'#0E0637', marginTop:20, fontFamily:'Aeonik-Medium'}}>The next-gen <br/>crypto wallet & <br/>trading platform</h1>
                 <p style = {{color: '#717184', maxWidth:'1090px', lineHeight:'28px', display:'block', fontSize:15, marginTop:-20}}>All of your cryptocurrency in one place — from <br/>Bitcoin and Ethereum to Litecoin and Ripple.</p>
                 <div style={{display:"flex"}}>
                 <input
@@ -96,7 +97,7 @@ const Home = () => {
                 <p style = {{color: '#717184', maxWidth:'1090px', lineHeight:'28px', display:'block', fontSize:18, marginTop:-20, textAlign:'center', marginLeft:220}}>Keep up on all the latest trends in the crypto and stay
                  <br/>ahead of the market.</p>
 
-                 <img src = {featureImg} alt = 'dashboard' width={1110} height={580} style={{position:'absolute', alignSelf:'center', marginLeft:185}}/>
+                 <img src = {featureImg} alt = 'dashboard' width={1110} height={580} style={{position:'absolute', alignSelf:'center', marginLeft:185, }}/>
                 </div>
                 </div>   
 
@@ -138,6 +139,30 @@ const Home = () => {
            
 
             </div>
+
+            <div className='gradient-background4'>
+            <div className='container4'>
+            <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13, textAlign:'left', }}>FEATURES</p>
+            <h1 style={{fontSize:40, color:'#0E0637' ,textAlign:'left'}}>Seamless Trading</h1>
+            <div className='text-container'>
+            <div>
+            <p style = {{color: '#717184', maxWidth:'1090px', lineHeight:'28px', display:'block', textAlign:'left'}}>Amet minim mollit non deserunt 
+            ullamco est sit aliqua dolor do amet sint. Velit officia <br/> 
+            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. 
+            Amet <br/> minim mollit non deserunt ullamco est sit aliqua dolor.</p>
+            </div>
+            <div>
+            <p style = {{color: '#717184', maxWidth:'1090px', lineHeight:'28px', display:'block', textAlign:'left', marginLeft:70}}>Amet minim mollit non deserunt ullamco est sit aliqua dolor <br/> do amet sint. Velit officia 
+                consequat duis enim velit <br/> mollit. Exercitation veniam consequat sunt nostrud amet. </p>
+            </div>
+            </div>
+            <img src = {features4} alt = 'fourth feature' width={1170} height={610} style={{position:'absolute', alignSelf:'center', marginLeft:-55}}/>
+           
+
+            </div>
+
+            </div>
+
 
 
             
