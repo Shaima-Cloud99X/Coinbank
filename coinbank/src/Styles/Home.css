@@ -202,3 +202,40 @@ h1 {
     align-items:center ;
     margin-top: -100px;
 }
+
+.test-text{
+    color: #523fe8;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left:80px;
+    margin-top: -1450px;
+  }
+
+  .text{
+    color:#717184;
+    font-size: 13px;
+    margin-top:-200px;
+   margin-left: 100px;
+  }
+
+  .testimonials{
+    margin-top: -1000px;
+    position: absolute;
+    justify-content: center;
+    align-items:center ;
+
+  }
+
+  .frame{
+    margin-top: -450px;
+    position: absolute;
+    justify-content: center;
+    align-items:center ;
+  }
+
+  .cta{
+    margin-top: 300px;
+    position: absolute;
+    justify-content: center;
+    align-items:center ;
+  }

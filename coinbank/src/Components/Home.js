@@ -13,6 +13,9 @@ import featureImg from '../Assets/featureImg.png'
 import bitcoins from '../Assets/Illustration2.png'
 import lines from '../Assets/Lines.png'
 import card from '../Assets/Card.png'
+import testimonials from '../Assets/Testimonials.png'
+import frame from '../Assets/Frame.png'
+import cta from '../Assets/CTA.png'
 
 const Home = () => {
     return(
@@ -127,18 +130,27 @@ const Home = () => {
 
             
             <div className='gradient-background3'>
-              <p className="features-text">FEATURES</p>
+                <p className="features-text">FEATURES</p>
 
-            <h1 style={{fontSize:20, color:'#0E0637',marginTop:-750, textAlign:'center' ,marginLeft:-140,}}>Supertrade your changes<br/>
-             with advanced features</h1>
-            
-             <img className="card" src = {card} alt = 'content' />
-             <img className="line"src = {lines} alt = 'content' />
-           
-           
+                <h1 style={{fontSize:20, color:'#0E0637',marginTop:-750, textAlign:'center' ,marginLeft:-140,}}>Supertrade your changes<br/>
+                with advanced features</h1>
+                
+                <img className="card" src = {card} alt = 'content' />
+                <img className="line"src = {lines} alt = 'content' />
 
             </div>
 
+            <div className='gradient-background3'> 
+            <p className="test-text">TESTIMONIALS</p>
+            <h1 style={{fontSize:20, color:'#0E0637',marginTop:-1380, textAlign:'center' ,marginLeft:-200,}}>Trusted by more than 100K+ people
+                </h1>
+                <p  className='text'style = {{color: '#717184', fontSize:13, marginTop:-200, marginLeft: -450}}>Hear what they say about us and why you should choose coinbank</p>
+                <img className="testimonials"src = {testimonials} alt = 'testimonials' />
+                <img className="frame"src = {frame} alt = 'testimonials' />
+                <img className="cta"src = {cta} alt = 'testimonials' />
+            
+
+            </div>
 
             
         </div>
