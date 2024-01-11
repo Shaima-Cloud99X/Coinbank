@@ -14,6 +14,7 @@ import bitcoins from '../Assets/Illustration2.png'
 import lines from '../Assets/Lines.png'
 import card from '../Assets/Card.png'
 import footerLogo from '../Assets/smallLogo.png';
+import features4 from '../Assets/features4.png'
 
 const Home = () => {
     return(
@@ -49,7 +50,7 @@ const Home = () => {
             <div className='headline'>
                 <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13 }}>SIGN IN TO YOUR SECURE WALLET !</p>
                
-                <h1 style={{fontSize:50, color:'#0E0637', fontWeight:'bold', marginTop:20}}>The next-gen <br/>crypto wallet & <br/>trading platform</h1>
+                <h1 style={{fontSize:64, color:'#0E0637', marginTop:20, fontFamily:'Aeonik-Medium'}}>The next-gen <br/>crypto wallet & <br/>trading platform</h1>
                 <p style = {{color: '#717184', maxWidth:'1090px', lineHeight:'28px', display:'block', fontSize:15, marginTop:-20}}>All of your cryptocurrency in one place — from <br/>Bitcoin and Ethereum to Litecoin and Ripple.</p>
                 <div style={{display:"flex"}}>
                 <input
@@ -93,11 +94,11 @@ const Home = () => {
                 <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13, textAlign:'center',marginTop:-450 }}>FEATURES</p>
                 {/* <img src = {Pattern} alt = 'content' style={{position:'absolute'}}/> */}
                 <div className='featureBackground'>
-                <h1 style={{fontSize:40, color:'#0E0637',marginTop:-2, textAlign:'center'}}>Get a bird's eye view of your<br/>crypto investments</h1>
-                <p style = {{color: '#717184', maxWidth:'1090px', lineHeight:'28px', display:'block', fontSize:18, marginTop:-20, textAlign:'center', marginLeft:220}}>Keep up on all the latest trends in the crypto and stay
+                {/* <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13, textAlign:'center',  marginLeft:-40}}>FEATURES</p> */}
+                <h2 style={{fontSize:40, color:'#0E0637',marginTop:30, textAlign:'center', fontFamily:"Aeonik-Medium", marginLeft:-20}}>Get a bird's eye view of your<br/>crypto investments</h2>
+                <p style = {{color: '#717184', maxWidth:'1090px', lineHeight:'28px', display:'block', fontSize:18, marginTop:-10, textAlign:'center', marginLeft:200}}>Keep up on all the latest trends in the crypto and stay
                  <br/>ahead of the market.</p>
-
-                 <img src = {featureImg} alt = 'dashboard' width={1110} height={580} style={{position:'absolute', alignSelf:'center', marginLeft:185}}/>
+                 <img src = {featureImg} alt = 'dashboard' width={1110} height={580} style={{position:'absolute', alignSelf:'center', marginLeft:165,marginTop:30 }}/>
                 </div>
                 </div>   
 
@@ -113,14 +114,14 @@ const Home = () => {
             
                 <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13, textAlign:'center', }}>FEATURES</p>
                
-                <h1 style={{fontSize:40, color:'#0E0637',marginTop:30, textAlign:'center'}}>Many type of Blockchains</h1>
+                <h2 style={{fontSize:40, color:'#0E0637',marginTop:30, textAlign:'center', fontFamily:"Aeonik-Medium"}}>Many type of Blockchains</h2>
                 <p style = {{color: '#717184', maxWidth:'1090px', lineHeight:'28px', display:'block', fontSize:18, marginTop:20, textAlign:'center',}}>Amet minim mollit
                  non deserunt ullamco est sit aliqua dolor do amet sint.<br/> Velit officia consequat duis enim velit mollit. Exercitation veniam consequat<br/>sunt nostrud amet.</p>
 
                
                 </div>
 
-                <img src = {bitcoins} alt = 'dashboard' width={1120} height={164} style={{position:'absolute',marginLeft:-190, marginTop:80}}/>
+                <img src = {bitcoins} alt = 'bitcoins' width={1120} height={164} style={{position:'absolute',marginLeft:-210, marginTop:100,}}/>
                 </div>
 
 
@@ -128,10 +129,12 @@ const Home = () => {
 
             
             <div className='gradient-background3'>
-              <p className="features-text">FEATURES</p>
+            <div style = {{marginRight:700, marginTop:800}}>
+                <p className="features-text">FEATURES</p>
+                <h2 style={{fontSize:40, color:'#0E0637',marginTop:40, textAlign:'center', fontFamily:'Aeonik-Medium'}}>Supertrade your changes<br/>
+ with advanced features</h2>
 
-            <h1 style={{fontSize:20, color:'#0E0637',marginTop:-750, textAlign:'center' ,marginLeft:-140,}}>Supertrade your changes<br/>
-             with advanced features</h1>
+                </div>
             
              <img className="card" src = {card} alt = 'content' />
              <img className="line"src = {lines} alt = 'content' />
@@ -139,6 +142,32 @@ const Home = () => {
            
 
             </div>
+
+            <div className='gradient-background4'>
+            <div className='container4'>
+            <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13, textAlign:'left', }}>FEATURES</p>
+            <h2 style={{fontSize:40, color:'#0E0637' ,textAlign:'left', fontFamily:'Aeonik-Medium'}}>Seamless Trading</h2>
+            <div className='text-container'>
+            <div>
+            <p style = {{color: '#717184', maxWidth:'1090px', lineHeight:'28px', display:'block', textAlign:'left'}}>Amet minim mollit non deserunt 
+            ullamco est sit aliqua dolor do amet sint. Velit officia <br/> 
+            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. 
+            Amet <br/> minim mollit non deserunt ullamco est sit aliqua dolor.</p>
+            </div>
+            <div>
+            <p style = {{color: '#717184', maxWidth:'1090px', lineHeight:'28px', display:'block', textAlign:'left', marginLeft:70}}>Amet minim mollit non deserunt ullamco est sit aliqua dolor <br/> do amet sint. Velit officia 
+                consequat duis enim velit <br/> mollit. Exercitation veniam consequat sunt nostrud amet. </p>
+            </div>
+            </div>
+            <img src = {features4} alt = 'fourth feature' width={1170} height={610} style={{position:'absolute', alignSelf:'center', marginLeft:-55}}/>
+           
+
+            </div>
+
+            </div>
+
+
+            
 
 
             

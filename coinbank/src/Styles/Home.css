@@ -87,23 +87,25 @@ h1 {
   }
 
   .gradient-background1 {
-    background: linear-gradient(to bottom,#ffffff, #E7E3FC, #ffffff);
+    background: linear-gradient(#ffffff, #E7E3FC, #ffffff);
     height: 160vh;
     display: flex;
     justify-content: center;
   align-items: center; 
   position: relative;
+  margin-top:-90px;
  
    
   }
 
   .gradient-background2 {
     background: linear-gradient(to bottom right, #E7E3FC, #ffffff);
-    height: 160vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
   align-items: center; 
   position: relative;
+  margin-top: -90px;
  
    
   }
@@ -124,8 +126,8 @@ h1 {
     background-image: url('../Assets/Pattern.png');
     background-size:100%;
     width:1500px;
-    height:360px;
-    margin-top:10px;
+    height:490px;
+    /* margin-top:-360px; */
     position: absolute;
     justify-content: center;
     align-items:center ;
@@ -142,7 +144,7 @@ h1 {
     justify-content: center;
     align-items:center ;
     margin-left: 420px;
-    margin-top: -620px;
+    margin-top: -240px;
   }
 
 
@@ -171,8 +173,8 @@ h1 {
     color: #523fe8;
     font-weight: bold;
     font-size: 13px;
-    margin-left: -1250px;
     margin-top: -850px;
+    text-align: center;
   }
 
   .companies{
@@ -190,15 +192,34 @@ h1 {
 }
 
 .line{
-    margin-left: -2500px;
+    margin-left: -1825px;
     justify-content: center;
     align-items:center ;
-    margin-top: -100px;
+    margin-top: 40px;
 }
 
 .card{
     position: absolute;
     justify-content: center;
     align-items:center ;
-    margin-top: -100px;
+    margin-top: 40px;
+}
+
+.gradient-background4 {
+  background: linear-gradient(to top, #E7E3FC, #ffffff);
+  height: 160vh;
+  display: flex;
+position: relative;
+margin-top: -150px;
+
+ 
+}
+
+.container4 {
+  margin-left:120px;
+}
+
+
+.text-container {
+  display: flex;
 }
