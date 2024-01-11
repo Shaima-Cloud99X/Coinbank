@@ -13,14 +13,11 @@ import featureImg from '../Assets/featureImg.png'
 import bitcoins from '../Assets/Illustration2.png'
 import lines from '../Assets/Lines.png'
 import card from '../Assets/Card.png'
-<<<<<<< Updated upstream
 import testimonials from '../Assets/Testimonials.png'
 import frame from '../Assets/Frame.png'
 import cta from '../Assets/CTA.png'
-=======
 import features4 from '../Assets/features4.png'
 import footerLogo from '../Assets/smallLogo.png';
->>>>>>> Stashed changes
 
 const Home = () => {
     return(
@@ -157,8 +154,6 @@ const Home = () => {
 
             </div>
 
-<<<<<<< Updated upstream
-=======
             <div className='gradient-background4'>
             <div className='container4'>
             <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13, textAlign:'left', }}>FEATURES</p>
@@ -198,7 +193,6 @@ const Home = () => {
 
 
 
->>>>>>> Stashed changes
             
         </div>
         
