@@ -13,13 +13,7 @@ import featureImg from '../Assets/featureImg.png'
 import bitcoins from '../Assets/Illustration2.png'
 import lines from '../Assets/Lines.png'
 import card from '../Assets/Card.png'
-<<<<<<< HEAD
-import testimonials from '../Assets/Testimonials.png'
-import frame from '../Assets/Frame.png'
-import cta from '../Assets/CTA.png'
 import footerLogo from '../Assets/smallLogo.png';
-=======
->>>>>>> parent of f31d84c (feature)
 
 const Home = () => {
     return(
@@ -146,47 +140,6 @@ const Home = () => {
 
             </div>
 
-<<<<<<< HEAD
-            <div className='gradient-background4'>
-            <div className='container4'>
-            <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13, textAlign:'left', }}>FEATURES</p>
-            <h2 style={{fontSize:40, color:'#0E0637' ,textAlign:'left', fontFamily:'Aeonik-Medium'}}>Seamless Trading</h2>
-            <div className='text-container'>
-            <div>
-            <p style = {{color: '#717184', maxWidth:'1090px', lineHeight:'28px', display:'block', textAlign:'left'}}>Amet minim mollit non deserunt 
-            ullamco est sit aliqua dolor do amet sint. Velit officia <br/> 
-            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. 
-            Amet <br/> minim mollit non deserunt ullamco est sit aliqua dolor.</p>
-            </div>
-            <div>
-            <p style = {{color: '#717184', maxWidth:'1090px', lineHeight:'28px', display:'block', textAlign:'left', marginLeft:70}}>Amet minim mollit non deserunt ullamco est sit aliqua dolor <br/> do amet sint. Velit officia 
-                consequat duis enim velit <br/> mollit. Exercitation veniam consequat sunt nostrud amet. </p>
-            </div>
-            </div>
-            {/* <img src = {features4} alt = 'fourth feature' width={1170} height={610} style={{position:'absolute', alignSelf:'center', marginLeft:-55}}/> */}
-           
-
-            </div>
-
-            </div>
-
-            <div className='footer-container'>
-
-            <div className='footer'>
-                <div className='column-one'>
-                    <img src = {footerLogo} alt = 'Logo' />
-
-                </div>
-
-          
-
-            </div>
-
-            </div>
-
-
-=======
->>>>>>> parent of f31d84c (feature)
 
             
         </div>
