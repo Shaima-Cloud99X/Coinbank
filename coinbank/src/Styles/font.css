@@ -55,12 +55,3 @@
     font-style: normal; */
   }
 
-  @font-face {
-     font-family: 'Aeonik Medium';
-     src: url('../Assets/fonts/Aeonik-Medium.ttf') format('ttf'),
-          ;
-     /* Add more source formats if necessary */
-     /* font-weight: normal;
-     font-style: normal; */
-   }
-
