@@ -16,7 +16,6 @@ import card from '../Assets/Card.png'
 import testimonials from '../Assets/Testimonials.png'
 import frame from '../Assets/Frame.png'
 import cta from '../Assets/CTA.png'
-import features4 from '../Assets/features4.png'
 import footerLogo from '../Assets/smallLogo.png';
 
 const Home = () => {
@@ -170,7 +169,7 @@ const Home = () => {
                 consequat duis enim velit <br/> mollit. Exercitation veniam consequat sunt nostrud amet. </p>
             </div>
             </div>
-            <img src = {features4} alt = 'fourth feature' width={1170} height={610} style={{position:'absolute', alignSelf:'center', marginLeft:-55}}/>
+            {/* <img src = {features4} alt = 'fourth feature' width={1170} height={610} style={{position:'absolute', alignSelf:'center', marginLeft:-55}}/> */}
            
 
             </div>
