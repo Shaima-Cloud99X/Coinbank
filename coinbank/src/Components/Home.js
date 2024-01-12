@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Styles/Home.css';
+import { useState } from 'react';
 import logo from '../Assets/Logo.png';
 import vector from '../Assets/Vector.png';
 import content from '../Assets/Content.png';
@@ -13,10 +14,24 @@ import featureImg from '../Assets/featureImg.png'
 import bitcoins from '../Assets/Illustration2.png'
 import lines from '../Assets/Lines.png'
 import card from '../Assets/Card.png'
-import footerLogo from '../Assets/smallLogo.png';
+import footerLogo from '../Assets/footerLogo.png';
 import features4 from '../Assets/features4.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faInstagram,faLinkedin,faDiscord } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => {
+
+   
+  const [dropdownValue, setDropdownValue] = useState('');
+
+
+
+  const handleDropdownChange = (e) => {
+    setDropdownValue(e.target.value);
+  };
+
+
+
     return(
         <div className='main-container'>
             <div className='navbarStyle'>
@@ -165,6 +180,98 @@ const Home = () => {
             </div>
 
             </div>
+
+            <div className='footer-container'>
+
+            <div className='footer'>
+                <div className='column-one'>
+                    <img src = {footerLogo} alt = 'Logo' />
+                    <br/>
+                    <br/>
+                
+
+        <select value={dropdownValue} onChange={handleDropdownChange} className='language'>
+          <option value="option1">English</option>
+          <option value="option2">Sinhala</option>
+        </select>
+        <br/>
+        <br/>
+
+    <div className="social-icons-container">
+    <FontAwesomeIcon icon={faInstagram} className="social-icon" />
+      <FontAwesomeIcon icon={faFacebook} className="social-icon" />
+      <FontAwesomeIcon icon={faTwitter} className="social-icon" />
+      <FontAwesomeIcon icon={faLinkedin} className="social-icon linkedin" />
+      <FontAwesomeIcon icon={faDiscord} className="social-icon" />
+    </div>
+    <br/>
+    <br/>
+  
+    <p className='copyright-text'>Copyright 2022 &copy; Coinbank</p>
+
+                </div>
+
+
+                <div className='links-container'>
+                    <div className='second-column'>
+                    <p style={{marginLeft:40}}>Company</p>
+                    <ul>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/about">Careers</a></li>
+                    <li><a href="/contact">Affiliates</a></li>
+                    <li><a href="/contact">Press</a></li>
+                    <li><a href="/contact">Inventors</a></li>
+                    <li><a href="/contact">Legal & Privacy</a></li>
+                    </ul>
+                    </div>
+
+                    <div className='second-column'>
+                    <p style={{marginLeft:40}}>Features</p>
+                    <ul>
+                    <li><a href="/">Buy & sell Crypto</a></li>
+                    <li><a href="/about">Wallet</a></li>
+                    <li><a href="/contact">Card</a></li>
+                    <li><a href="/contact">Dashboard</a></li>
+                    <li><a href="/contact">Trading</a></li>
+                    <li><a href="/contact">Portfolio</a></li>
+                    </ul>
+                    </div>
+
+                    <div className='second-column'>
+                    <p style={{marginLeft:40}}>Developers</p>
+                    <ul>
+                    <li><a href="/">Cloud</a></li>
+                    <li><a href="/about">Wallet SDK</a></li>
+                    <li><a href="/contact">Query & Transact</a></li>
+                    <li><a href="/contact">Commerce</a></li>
+                    <li><a href="/contact">Exchange & Pro</a></li>
+                    <li><a href="/contact">API Access</a></li>
+                    </ul>
+                    </div>
+
+                    <div className='second-column'>
+                    <p style={{marginLeft:40}}>Resources</p>
+                    <ul>
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/about">Help & Support</a></li>
+                    <li><a href="/contact">Customer Stories</a></li>
+                    <li><a href="/contact">FAQ</a></li>
+                    </ul>
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+</div>
 
 
             
