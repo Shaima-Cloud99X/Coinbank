@@ -122,6 +122,10 @@ h1 {
   }
 
 
+  .container4{
+    background-color: '#F7F6FE';
+  }
+
   .featureBackground {
     background-image: url('../Assets/Pattern.png');
     background-size:100%;

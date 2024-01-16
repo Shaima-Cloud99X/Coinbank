@@ -14,6 +14,9 @@ import featureImg from '../Assets/featureImg.png'
 import bitcoins from '../Assets/Illustration2.png'
 import lines from '../Assets/Lines.png'
 import card from '../Assets/Card.png'
+import testimonial from '../Assets/Testimonials.png'
+import frame from '../Assets/Frame.png'
+import CTA from '../Assets/CTA.png'
 import footerLogo from '../Assets/footerLogo.png';
 import features4 from '../Assets/features4.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -180,6 +183,24 @@ const Home = () => {
             </div>
 
             </div>
+
+            <div className='container5'>
+
+            <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13, textAlign:'center', marginTop:100,}}>FEATURES</p>
+            <h2 style={{fontSize:40, color:'#0E0637' ,textAlign:'center', fontFamily:'Aeonik-Medium'}}>Trusted by more than 100K + people </h2>
+            <p style={{fontSize:13, color:'#717184' ,textAlign:'center', fontFamily:'Aeonik-Medium'}}>Hear what they say about us and why you choose coinbank</p>
+
+            <img className="test" src = {testimonial} alt = 'content' width={1120} height={334} style ={{ alignSelf:'center', marginLeft:100}} />
+            <img className="frame" src = {frame} alt = 'content' width={1440} height={160} style ={{ alignSelf:'center', marginLeft:-50, marginTop:50}} />
+            <img className="CTA" src = {CTA} alt = 'content' width={1120} height={400} style ={{ alignSelf:'center', marginLeft:110, marginTop:50}} />
+
+
+
+
+
+            </div>
+
+
 
             <div className='footer-container'>
 
