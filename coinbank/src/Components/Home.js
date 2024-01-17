@@ -185,25 +185,18 @@ const Home = () => {
             </div>
 
             <div className='container5'>
+            
+            <div className='gradient-backgound-last'>
 
-            <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13, textAlign:'center', marginTop:100,}}>FEATURES</p>
+            <p style={{color:'#523FE8',fontWeight:'bold', fontSize:13, textAlign:'center', marginTop:100,}}>TESTIMONIALS</p>
             <h2 style={{fontSize:40, color:'#0E0637' ,textAlign:'center', fontFamily:'Aeonik-Medium'}}>Trusted by more than 100K + people </h2>
             <p style={{fontSize:13, color:'#717184' ,textAlign:'center', fontFamily:'Aeonik-Medium'}}>Hear what they say about us and why you choose coinbank</p>
 
-            <img className="test" src = {testimonial} alt = 'content' width={1120} height={334} style ={{ alignSelf:'center', marginLeft:100}} />
-            <img className="frame" src = {frame} alt = 'content' width={1440} height={160} style ={{ alignSelf:'center', marginLeft:-50, marginTop:50}} />
-            <img className="CTA" src = {CTA} alt = 'content' width={1120} height={400} style ={{ alignSelf:'center', marginLeft:110, marginTop:50}} />
-
-
-
-
-
-            </div>
-
-
-
-            <div className='footer-container'>
-
+            <img className="test" src = {testimonial} alt = 'content' width={1120} height={334} style ={{ alignSelf:'center', marginLeft:130}} />
+            <img className="frame" src = {frame} alt = 'content' width={1440} height={160} style ={{ alignSelf:'center', marginLeft:-20, marginTop:50}} />
+            <img className="CTA" src = {CTA} alt = 'content' width={1120} height={400} style ={{ alignSelf:'center', marginLeft:140, marginTop:50}} />
+             
+        <div className='contain'>
             <div className='footer'>
                 <div className='column-one'>
                     <img src = {footerLogo} alt = 'Logo' />
@@ -279,20 +272,22 @@ const Home = () => {
                     <li><a href="/contact">FAQ</a></li>
                     </ul>
                     </div>
-
-
-
-
-
-
-
                 </div>
+            </div>
 
+            </div>
+
+            </div>
 
 
             </div>
 
-</div>
+
+
+            {/* <div className='footer-container'>
+
+           
+</div> */}
 
 
             

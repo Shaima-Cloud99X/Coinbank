@@ -219,6 +219,16 @@ margin-top: -150px;
  
 }
 
+.container5 {
+  background: linear-gradient(to top, #E7E3FC, #ffffff);
+  height: 290vh;
+  display: flex;
+position: relative;
+
+}
+
+
+
 .container4 {
   margin-left:120px;
 }
@@ -230,7 +240,7 @@ margin-top: -150px;
 
 
 .footer {
-  background-color: antiquewhite;
+  background-color: #ffffff;
   height:60vh;
   /* justify-content:center; */
   border-radius: 20px;
@@ -297,4 +307,11 @@ a {
   margin-top: 70px;
   margin-left: 10px;
   margin-right: 20px;
+}
+
+.contain {
+  padding-top: 100px;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-bottom: 100px;
 }
