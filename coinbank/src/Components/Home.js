@@ -21,17 +21,11 @@ import footerLogo from '../Assets/footerLogo.png';
 import features4 from '../Assets/features4.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram,faLinkedin,faDiscord } from '@fortawesome/free-brands-svg-icons';
-
+import {menuItems} from "./MenuItems";
+import Menu from "./Menu";
 const Home = () => {
 
-   
-  const [dropdownValue, setDropdownValue] = useState('');
-
-
-
-  const handleDropdownChange = (e) => {
-    setDropdownValue(e.target.value);
-  };
+    
 
 
 
@@ -41,7 +35,7 @@ const Home = () => {
                 <img src = {logo} alt = 'Logo' />
             </div>
             <div className="header">
-            <div className="header-item">
+            {/* <div className="header-item">
                 <p>Features    <img src = {vector} alt = 'vector' /></p>
             </div>
             <div className="header-item">
@@ -52,9 +46,27 @@ const Home = () => {
             </div>
             <div className="header-item">
                 <p>Developing</p>
-            </div>
+            </div> */}
+
+        <ul className = "menus" > {
+            menuItems.map((menu, index) => {
+                const depthLevel = 0;
+                return <Menu items = {
+                    menu
+                }
+                key = {
+                    index
+                }
+                depthLevel = {
+                    depthLevel
+                }
+                />;
+            })
+        } </ul>
            
             </div>
+
+
             <div className="buttons">
             <button className="header-button">Sign In</button>
             <button className="header-button1">Get Started</button>
@@ -204,7 +216,7 @@ const Home = () => {
                     <br/>
                 
 
-        <select value={dropdownValue} onChange={handleDropdownChange} className='language'>
+        <select  className='language'>
           <option value="option1">English</option>
           <option value="option2">Sinhala</option>
         </select>
